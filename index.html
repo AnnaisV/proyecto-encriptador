@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="imagenes/imagen-logo.png">
+
+    </head>
+
+    <body>
+
+        <video src="imagenes/video.mp4" autoplay muted loop class="video"></video>
+        <header class="principal">
+            <nav>
+                <h1>a</h1>
+            </nav>   
+           
+                 
+        </header>
+
+        <main class="principal">
+            <section>
+                
+                <textarea class="caja-mensaje" cols="30" rows="10" placeholder="Ingrese su texto aquí"></textarea>
+                <div>
+                    <h6 class="informacion">Sólo ingrese letras minúsculas y sin carácteres especiales</h6>
+                </div>
+                <div class="botones">
+                    <button class="boton-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="boton-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+
+
+            <section>
+                <div>
+                        <textarea class="caja-resultado"  cols="30" rows="10" placeholder="Aquí se verá su texto encriptado" readonly></textarea>
+                </div>
+                    <button class="boton-copiar"  id="copiar" onclick="copiarTexto()">Copiar</button>
+                </div>
+            </section>
+        </main>
+          <script src="script.js"></script>
+
+    </body>
+
+    <footer>
+        
+        <div class="principal">
+            <p class="texto-footer">Diseñado por Annais Vergara - Estudiante ONE</p> 
+            <a href="https://github.com/AnnaisV"><img class="git" src="imagenes/github.png" alt= "logo-github"></a> 
+            <a href="https://www.linkedin.com/in/annaisvergara/"><img class="linkedin" src="imagenes/linkedin.png" alt= "logo-linkedin"></a>
+        </div>        
+    </footer>
+</html>
